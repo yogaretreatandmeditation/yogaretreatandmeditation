@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+}
+#main,#three-main{
+    background: #ddd6c74d;
+}
+#first h1{
+    font-family: 'Nova Oval', cursive;
+}
+
+#first p{
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: .2rem;
+    word-spacing: 1rem;
+    line-height: 2rem;
+}
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+#certificate ol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+#certificate ol li{
+   text-align: justify;
+   line-height: 2;
+   font-size: large;
+   font-weight:500;
+   letter-spacing: .1rem;
+   word-spacing: .4rem;
+}
+.box{
+    width: 500px;
+}
+#three-first img{
+    height:500px;
+    /* width: 1200px!important; */
+}
+#demo{
+    width: 70%;
+}
+#three-first span{
+    font-family:'Cinzel Decorative', cursive;
+}
+#three-first h1{
+    /* word-spacing: 10px; */
+    letter-spacing: 2px;
+}

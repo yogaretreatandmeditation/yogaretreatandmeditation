@@ -54,3 +54,13 @@
     /* word-spacing: 10px; */
     letter-spacing: 2px;
 }
+
+@media(max-width:1200px){
+    #three-first img{
+        /* width: 100%!important; */
+        height: auto;
+    }
+    #demo{
+        width: 100%!important;
+    }
+}

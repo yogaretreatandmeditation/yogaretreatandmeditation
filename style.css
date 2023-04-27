@@ -8,6 +8,18 @@
 #main,#three-main{
     background: #ddd6c74d;
 }
+p{
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: .2rem;
+    word-spacing: 1rem;
+    line-height: 2rem;
+}
+#first{
+    background-image: url(Images/iconii.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 #first h1{
     font-family: 'Nova Oval', cursive;
 }
@@ -18,10 +30,22 @@
     word-spacing: 1rem;
     line-height: 2rem;
 }
+#about{
+    background-image: url(Images/icon3.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* Make the image fully responsive */
 .carousel-inner img {
   width: 100%;
   height: 100%;
+}
+#certificate{
+    background-image: url(Images/newimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 #certificate ol{
     display: flex;
@@ -53,6 +77,12 @@
 #three-first h1{
     /* word-spacing: 10px; */
     letter-spacing: 2px;
+}
+#available{
+    background-image: url(Images/newimage2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
 }
 
 @media(max-width:1200px){

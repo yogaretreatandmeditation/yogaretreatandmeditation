@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 *{
     font-family: 'Comfortaa', cursive;
 }
@@ -9,7 +10,10 @@
     /* background-color: #ccabd0; */
 }
 .navbar{
-    /* background-color: #91D2C6; */
+    background-color: #f5f3ee;
+}
+ul.dropdown-menu.show {
+    background: #f5f3ee;
 }
 .logo{
     width: 75px;

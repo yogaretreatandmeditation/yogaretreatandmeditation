@@ -19,6 +19,70 @@ ul.dropdown-menu.show {
     width: 75px;
     height: 100px;
 }
+.menu-bar {
+  background-color: #f5f3ee;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  position: relative;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li {
+  width: auto;
+  padding: 10px 30px;
+  /* text-align: center; */
+  position: relative;
+}
+.menu-bar ul li a {
+  color: var(--color-white);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-bar ul li a:hover {
+  color: blue;
+}
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #f5f3ee;
+/*   background-color: var(--color-black); */
+}
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 250px;
+  padding: 10px;
+  background-color: #f5f3ee;
+}
+.dropdown-menu-1 {
+  display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+/*   background-color: var(--color-black); */
+}
 p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .1rem;
@@ -26,7 +90,7 @@ p{
     /* line-height: 2rem; */
 }
 #first{
-    background-image: url(Images/iconii.PNG);
+    background-image: url(Images/iconii.png);
     background-repeat: no-repeat;
     background-position: center;
     /* background-attachment: fixed; */
@@ -41,7 +105,7 @@ p{
     /* word-spacing: 1rem; */
 }
 #about{
-    background-image: url(Images/icon3.PNG);
+    background-image: url(Images/icon3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -85,7 +149,7 @@ p{
     font-family:'Cinzel Decorative', cursive;
 }
 #available{
-    background-image: url(Images/newimage2.PNG);
+    background-image: url(Images/newimage2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; 

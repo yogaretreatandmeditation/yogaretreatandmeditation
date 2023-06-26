@@ -7,7 +7,6 @@
 }
 #main,#three-main{
     background: #ddd6c74d;
-    /* background-color: #ccabd0; */
 }
 .navbar{
     background-color: #f5f3ee;
@@ -16,18 +15,25 @@ ul.dropdown-menu.show {
     background: #f5f3ee;
 }
 .logo{
-    width: 75px;
-    height: 100px;
+    height: 90px;
+}
+.fa-bars{
+    font-size: 25px;
+    cursor: pointer;
+    right: 20px;
+    position: absolute;
+    display: none;
+    visibility: hidden;
 }
 .menu-bar {
-  background-color: #f5f3ee;
+  background-color: #246940;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
   position: relative;
+  color: white;
 }
 .menu-bar ul {
   list-style: none;
@@ -35,8 +41,8 @@ ul.dropdown-menu.show {
 }
 .menu-bar ul li {
   width: auto;
-  padding: 10px 30px;
-  /* text-align: center; */
+  padding-top: 20px;
+  padding-right:  12px;
   position: relative;
 }
 .menu-bar ul li a {
@@ -45,9 +51,9 @@ ul.dropdown-menu.show {
   transition: all 0.3s;
 }
 .menu-bar ul li a:hover {
-  color: blue;
+  color: white;
 }
-.fas {
+.fa-caret-down {
   float: right;
   margin-left: 10px;
   padding-top: 3px;
@@ -61,17 +67,16 @@ ul.dropdown-menu.show {
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: #f5f3ee;
-/*   background-color: var(--color-black); */
+  background-color: #246940;
+  color: white;
 }
 .menu-bar ul li:hover .dropdown-menu ul {
   display: block;
-  margin: 10px;
+padding: 0;
 }
 .menu-bar ul li:hover .dropdown-menu ul li {
-  width: 250px;
   padding: 10px;
-  background-color: #f5f3ee;
+  background-color: #246940;
 }
 .dropdown-menu-1 {
   display: none;
@@ -81,19 +86,15 @@ ul.dropdown-menu.show {
   position: absolute;
   left: 150px;
   top: 0;
-/*   background-color: var(--color-black); */
 }
 p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .1rem;
-    /* word-spacing: 1rem; */
-    /* line-height: 2rem; */
 }
 #first{
-    background-image: url(Images/iconii.png);
+    background-image: url(Images/background/bg11.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 #first h1{
     font-family: 'Nova Oval', cursive;
@@ -102,7 +103,6 @@ p{
 #first p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .2rem;
-    /* word-spacing: 1rem; */
 }
 #about{
     background-image: url(Images/icon3.png);
@@ -121,11 +121,35 @@ p{
     background-position: center;
     background-attachment: fixed;
 }
-#certificate ol{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
+.four-certificate div{
+    box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25);
+/*     border-radius: 15px 15px 0px 0px; */
+/*     margin-bottom: 20px ; */
+}
+/* #certificate .box{
+    width: 280px;
+    height: 372px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25);
+    border-radius: 15px 15px 0px 0px;
+} */
+#certificate .icon{
+    background: rgba(254, 214, 101, 0.44);
+    box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
+    border-radius: 15px 15px 0px 0px;
+    color: #246940;
+    font-size: 20px;
+}
+#certificate .icon2{
+    width: 60px;
+    height: 70px;
+}
+#certificate .text{
+    font-size: 15px;
+/*     background: rgba(254, 214, 101, 0.44); */
+    background: white;
+/*     box-shadow: inset 0px 4px 31px 120px rgba(254, 214, 101, 0.78); */
+    color: #246940;
 }
 #certificate ol li{
    text-align: justify;
@@ -140,7 +164,6 @@ p{
 }
 #three-first img{
     height:500px;
-    /* width: 1200px!important; */
 }
 #demo{
     width: 70%;
@@ -155,8 +178,10 @@ p{
     background-attachment: fixed; 
 }
 .box .bg-dark{
-/*     margin: auto; */
 text-align: center!important;
+}
+footer{
+    background: #246940;
 }
 .footer-img{
     padding:0 20px;
@@ -164,13 +189,31 @@ text-align: center!important;
 footer li{
     word-spacing: 5px;
 }
-
+@media(max-width:1200px){
+    height:auto;
+}
 @media(max-width:1200px){
     #three-first img{
-        /* width: 100%!important; */
         height: auto;
     }
     #demo{
         width: 100%!important;
+    }
+    .fa-bars{
+        display: block;
+        visibility: visible;
+    }
+    .menu-bar ul{
+        display: block;
+        position: relative;
+        top: 150px;
+        background-color: #246940;
+    }
+    .menu-bar ul li{
+        margin: 0;
+        padding: 0;
+    }
+    .fa-bars:checked ~ .dropdown-menu ul{
+        
     }
 }

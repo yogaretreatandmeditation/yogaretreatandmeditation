@@ -15,6 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="100 hours yoga teacher training course includes the basic yoga poses and how to modify them for different levels of experience.Yoga Retreat and Meditation gives the best 100 hours yoga course">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href= "Images/foreground/yogmlogo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
@@ -60,14 +61,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="javascript:void(0)">Online Classes</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">3-7 days(1hr/day)</a></li>
-                  <li><a class="dropdown-item no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">50 hours yoga online teacher training</a></li>
-                  <li><a class="dropdown-item no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">200 hours online yoga teacher training</a></li>
-                  <li><a class="dropdown-item no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">Prenatal & Postnatal online teacher training</a></li>
+                  <li><a class="dropdown-item no-wrap" href="3-5-7-days-online-yoga-meditation-retreat-course.html">3-7 days(1hr/day)</a></li>
+                  <li><a class="dropdown-item disabled no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">50 hours yoga online teacher training</a></li>
+                  <li><a class="dropdown-item disabled no-wrap" href="3-days-himalayan-meditation-yoga-retreat-in-rishikesh.html">200 hours online yoga teacher training</a></li>
+                  <li><a class="dropdown-item no-wrap" href="prenatal-and-postnatal-online-yoga-teacher-training-in-rishikesh.html">Prenatal & Postnatal online teacher training</a></li>
                   </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Blogs</a>
+                <a class="nav-link" href="blogs.html">Blogs</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="javascript:void(0)">Our School</a>
@@ -372,18 +373,22 @@ Yoga meditation: This includes the different types of meditation, how to teach t
           <h5>School Policy & Code of Conduct</h5>
           <p class="mb-5">By signing and booking for your course at Yoga Retreat and Meditation, you are acknowledging that you have read, agree and accept our School Policy and Code of Conduct. Please go through our School Policy and Code of Conduct thoroughly.</p>
         </section>
+        <hr>
         <div class="col mb-5 ">
-          <p class="lead text-center">For any query or message please feel free to contact us</p>
-        <form class=" bg-secondary w-50 mx-auto border border-5">
+          <p class="lead text-center bg-secondary rounded-5">For any query or message please feel free to contact us</p>
+
+        <form action="https://usebasin.com/f/8eab3e3a7bc7
+" class=" bg-secondary w-50 mx-auto border border-5" method="POST" id="my-contact-form">
           
   <div class="p-3">
-      <input type="text" class="form-control mb-2" placeholder="Enter Name" name="email">
-      <input type="Email" class="form-control" placeholder="Enter Email" name="pswd">
+      <input type="text" class="form-control mb-2" placeholder="Write Name here.." name="name">
+      <input type="email" class="form-control" placeholder="Write Email Id.." name="email">
       <div class="mb-3 mt-3">
-      <label for="comment" class="text-light">Message/Query:</label>
-      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      <textarea class="form-control" placeholder="Write Your Query Or Message" rows="5" id="comment" name="text"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-outline-dark btn-primary">Send Us Your Query</button>
+    <div id="form-message" class="text-light mt-2"><i class="fa fa-check invisible" aria-hidden="true"></i>
+</div>
   </div>
 </form>
 </div>
@@ -424,5 +429,24 @@ Yoga meditation: This includes the different types of meditation, how to teach t
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" >
+var form = document.getElementById("my-contact-form");
+var formMessage = document.getElementById("form-message");
+form.onsubmit = function(event) {
+event.preventDefault();
+var formData = new FormData(form);
+var xhr = new XMLHttpRequest();
+xhr.open("POST", form.action, true);
+xhr.send(formData);
+xhr.onload = function(e) {
+if (xhr.status === 200) {
+formMessage.innerHTML = "Successfully Submitted";
+} else {
+var response = JSON.parse(xhr.response);
+formMessage.innerHTML = "Error: " + response.error;
+}
+};
+};
+</script>
 </body>
 </html>

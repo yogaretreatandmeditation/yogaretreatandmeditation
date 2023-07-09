@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+:root {
+  --yellow: rgba(254, 214, 101, 0.44);
+  --yell: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
+/*   --white: #ffffff; */
+}
+
 *{
     font-family: 'Comfortaa', cursive;
 }
@@ -192,8 +198,9 @@ p{
 text-align: center!important;
 }
 footer{
-    background: rgba(254, 214, 101, 0.44);
-    box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
+    background: var(--yellow);
+    box-shadow: var(--yell);
+/*     box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78); */
 }
 .footer-img{
     padding:0 20px;

@@ -15,13 +15,14 @@
 #main,#three-main{
     background: #ddd6c74d;
 }
+
 .navbar{
     background-color: #f5f3ee;
 }
 ul.dropdown-menu.show {
     background: #f5f3ee;
 }
-.logo{
+/* .logo{
     height: 90px;
 }
 .fa-bars{
@@ -69,6 +70,7 @@ ul.dropdown-menu.show {
   margin-left: 10px;
   padding-top: 3px;
 }
+
 /* dropdown menu style */
 .dropdown-menu {
   display: none;
@@ -111,9 +113,9 @@ p{
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 #carouselExampleIndicators{
-/*     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
-/*     box-shadow:#F04B4D; */
-/*     transition: all .5s; */
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    box-shadow:#F04B4D;
+    transition: all .5s;
 }
 #first p{
     font-family: 'Comfortaa', cursive;
@@ -137,7 +139,7 @@ p{
     background-attachment: fixed;
 }
 .four-certificate div{
-    box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25);
+    /* box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25); */
 /*     border-radius: 15px 15px 0px 0px; */
 /*     margin-bottom: 20px ; */
 }
@@ -148,7 +150,7 @@ p{
     box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25);
     border-radius: 15px 15px 0px 0px;
 } */
-#certificate .icon{
+#certificate .icons{
     background: rgba(254, 214, 101, 0.44);
     box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
     border-radius: 15px 15px 0px 0px;
@@ -187,6 +189,9 @@ p{
 }
 #three-first span{
     font-family:'Cinzel Decorative', cursive;
+}
+.tabletwo{
+    display: none;
 }
 #available{
     background-image: url(Images/newimage2.png);
@@ -229,7 +234,7 @@ footer li{
 /*   background-color: #246940; */
 /*   color: white; */
 }
-    .menu-bar ul{
+    /* .menu-bar ul{
         display: block;
         position: relative;
         width: 100%;
@@ -246,5 +251,14 @@ footer li{
     }
     #check:checked ~ ul{
         left: 0;
+    }*/
+}
+@media(max-width: 886px){
+    .tableone{
+        visibility: hidden;
+        display: none;
+    }
+    .tabletwo{
+        display: block;
     }
 }

@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
   --yellow: rgba(254, 214, 101, 0.44);
   --yell: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
 /*   --white: #ffffff; */
+  --gold: 'Grand Hotel', cursive;
+  --sofia: 'Sofia', cursive;
+  --nova: 'Nova Oval', cursive;
+  --pacifico: 'Pacifico', cursive;
 }
 
 *{
@@ -103,7 +110,9 @@ p{
 #first h1{
     font-family: 'Nova Oval', cursive;
 }
-
+#first .history-head{
+    font-family: var(--pacifico);
+}
 .box3 {
 /*   height: 40vh; */
   background-color: #F04B4D;
@@ -121,12 +130,32 @@ p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .2rem;
 }
-#about{
+.about{
     background-image: url(Images/icon3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    /* filter: blur(8px); */
+    
 }
+#about .about-head{
+    font-family: var(--nova);
+}
+.yoga-two .yoga-container{
+    font-family: var(--gold);
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+.fs-5{
+    letter-spacing: 5px;
+}
+/* .yoga-two .yoga-container .fs-5{
+    margin-top: 0;
+} */
+#about .allience-para{
+    font-family: var(--sofia);
+}
+
 /* Make the image fully responsive */
 .carousel-inner img {
   width: 100%;
@@ -137,6 +166,9 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+#certificate h2{
+    font-family: var(--nova);
 }
 .four-certificate div{
     /* box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25); */
@@ -201,6 +233,10 @@ p{
 }
 .box .bg-dark{
 text-align: center!important;
+}
+.query-head{
+ font-family: var(--nova);  
+ font-size: x-large; 
 }
 footer{
     background: var(--yellow);

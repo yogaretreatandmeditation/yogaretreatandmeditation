@@ -8,7 +8,7 @@
 
 :root {
   --yellow: rgba(254, 214, 101, 0.44);
-  --yell: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
+  --yell: inset 0px 4px 31px 33px #fed665c7;
 /*   --white: #ffffff; */
   --gold: 'Grand Hotel', cursive;
   --sofia: 'Sofia', cursive;
@@ -102,11 +102,12 @@ p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .1rem;
 }
-#first{
-/*     background-image: url(Images/background/bg11.png); */
-/*     background-repeat: no-repeat; */
-/*     background-position: center; */
-}
+/* #first{
+    background-image: url(Images/background/bg11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
 #first h1{
     font-family: 'Nova Oval', cursive;
 }
@@ -238,6 +239,9 @@ text-align: center!important;
  font-family: var(--nova);  
  font-size: x-large; 
 }
+#my-contact-form{
+    width: 50%;
+}
 footer{
     background: var(--yellow);
     box-shadow: var(--yell);
@@ -296,5 +300,8 @@ footer li{
     }
     .tabletwo{
         display: block;
+    }
+    #my-contact-form{
+        width: 100%;
     }
 }

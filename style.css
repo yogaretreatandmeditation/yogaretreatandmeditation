@@ -144,10 +144,10 @@ p{
 .yoga-two .yoga-container{
     font-family: var(--gold);
     letter-spacing: 5px;
-    font-size: 100px;
+    font-size: 4rem;
 }
 .fs-5{
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 /* .yoga-two .yoga-container .fs-5{
     margin-top: 0;

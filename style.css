@@ -101,6 +101,9 @@ padding: 0;
 p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .1rem;
+    color: #897b55;
+    font-weight: 600;
+    padding: 0px 45px 5px 45px;
 }
 /* #first{
     background-image: url(Images/background/bg11.png);
@@ -217,6 +220,7 @@ p{
 }
 .box{
     width: 500px;
+    border-radius: 50px 229px 50px 182px;
 }
 #three-first img{
     height:500px;
@@ -245,11 +249,15 @@ text-align: center!important;
 }
 #my-contact-form{
     width: 50%;
+    background-color: var(--yellow);
+    box-shadow: var(--yell);
+    border-radius: 50px 500px 35px 35px;
 }
 footer{
     background: var(--yellow);
     box-shadow: var(--yell);
 /*     box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78); */
+    border-radius: 50px 50px 0 0;
 }
 .footer-img{
     padding:0 20px;

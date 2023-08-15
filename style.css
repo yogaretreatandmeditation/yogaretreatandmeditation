@@ -114,6 +114,10 @@ p{
 #first .history-head{
     font-family: var(--pacifico);
 }
+.first .yogic-girl{
+    width: 607px;
+    height: 580px;
+}
 .box3 {
 /*   height: 40vh; */
   background-color: #F04B4D;

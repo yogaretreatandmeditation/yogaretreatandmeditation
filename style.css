@@ -134,6 +134,9 @@ p{
     box-shadow:#F04B4D;
     transition: all .5s;
 }
+.carousel-fade .carousel-item{
+    transition: .6s ease-in-out .8s;
+}
 #first p{
     font-family: 'Comfortaa', cursive;
     letter-spacing: .2rem;

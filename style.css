@@ -263,6 +263,7 @@ text-align: center!important;
  font-size: x-large; 
 }
 #my-contact-form{
+    width: 50%;
     background-color: var(--yellow);
     box-shadow: var(--yell);
     border-radius: 50px 500px 35px 35px;

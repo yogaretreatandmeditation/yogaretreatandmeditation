@@ -113,7 +113,7 @@ p{
     background-size: cover;
 } */
 #first h1{
-    font-family: 'Nova Oval', cursive;
+    font-family: var(--cinzel);
 }
 #first .history-head{
     font-family: var(--pacifico);
@@ -151,7 +151,8 @@ p{
     
 }
 #about .about-head{
-    font-family: var(--nova);
+    font-family: var(--cinzel);
+    font-weight: 600;
 }
 .yoga-two .yoga-container{
     font-family: var(--gold);
@@ -180,7 +181,8 @@ p{
     background-attachment: fixed;
 }
 #certificate h2{
-    font-family: var(--nova);
+    font-family: var(--cinzel);
+    font-weight: 600;
 }
 .four-certificate div{
     /* box-shadow: 0px 4px 10px rgba(154, 154, 154, 0.25); */
@@ -235,7 +237,7 @@ p{
     width: 500px;
     border-radius: 50px 229px 50px 182px;
     background: rgba(254, 214, 101, 0.44);
-    box-shadow: 0px 6px 0px 5px #fed665c7;
+    box-shadow: inset 0px 6px 0px 5px #fed665c7;
 }
 #three-first img{
     height:500px;
@@ -267,7 +269,8 @@ p{
 text-align: center!important;
 }
 .query-head{
- font-family: var(--nova);  
+ font-family: var(--cinzel);
+ font-weight: 600;  
  font-size: x-large; 
 }
 #my-contact-form{

@@ -233,7 +233,6 @@ p{
 .box{
     width: 500px;
     border-radius: 50px 229px 50px 182px;
-    
 }
 #three-first img{
     height:500px;
@@ -264,7 +263,6 @@ text-align: center!important;
  font-size: x-large; 
 }
 #my-contact-form{
-    width: 50%;
     background-color: var(--yellow);
     box-shadow: var(--yell);
     border-radius: 50px 500px 35px 35px;

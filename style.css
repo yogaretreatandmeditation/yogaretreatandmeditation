@@ -267,6 +267,7 @@ p{
 }
 #available .box h2{
     font-family: var(--pacifico);
+    font-size: x-large;
 }
 .swiper {
     width: 500px;

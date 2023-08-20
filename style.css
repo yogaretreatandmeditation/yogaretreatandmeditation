@@ -304,6 +304,32 @@ footer{
 .footer-img{
     padding:0 20px;
 }
+.fa-square-facebook,.fa-instagram,.fa-square-x-twitter,.fa-pinterest,.fa-square-google-plus{
+    color: #fff;
+    /* box-shadow: var(--yell); */
+    transition: all .3s ease;
+    opacity: .6;
+    padding:0 20px;
+}
+.fa-instagram:hover{
+    opacity: 1;
+    color: var(--yellow);
+}
+.fa-pinterest:hover{
+    opacity: 1;
+}
+.fa-square-facebook:hover{
+    opacity: 1;
+}
+.fa-square-x-twitter:hover{
+    opacity: 1;
+}
+.fa-square-google-plus:hover{
+    opacity: 1;
+}
+.rating{
+    text-align: center;
+}
 footer li{
     word-spacing: 5px;
 }

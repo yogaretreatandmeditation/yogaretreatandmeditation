@@ -116,6 +116,7 @@ p{
 } */
 #first h1{
     font-family: var(--cinzel);
+    font-weight: 600 ;
 }
 #first .history-head{
     font-family: var(--pacifico);

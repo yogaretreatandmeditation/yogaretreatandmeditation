@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 :root {
   --yellow: rgba(254, 214, 101, 0.44);

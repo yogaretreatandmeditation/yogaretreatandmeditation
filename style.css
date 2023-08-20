@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css");
 
 :root {
   --yellow: rgba(254, 214, 101, 0.44);
@@ -264,6 +265,21 @@ p{
 }
 #available .box h2{
     font-family: var(--pacifico);
+}
+.swiper {
+    width: 500px;
+    /* height: 300px; */
+}
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    color: var(--yell);
+    background: var(--yell);
+}
+.swiper-scrollbar-drag{
+    background: var(--yellow)!important;
+    box-shadow: var(--yell);
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #897b55;
 }
 .box .bg-dark{
 text-align: center!important;

@@ -227,6 +227,10 @@ p{
    background: rgba(254, 214, 101, 0.44);
     box-shadow: inset 0px 4px 31px 33px rgba(254, 214, 101, 0.78);
 }
+#certificate li p{
+    padding: 0 45px;
+    letter-spacing: .1rem;
+}
 .alert{
     text-shadow: 1.5px 1.1px #af6060;
     box-shadow: inset 3px 3px 5px 1px black;
